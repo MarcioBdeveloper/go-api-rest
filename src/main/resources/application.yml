@@ -1,0 +1,33 @@
+spring:
+  datasources:
+    -
+      name: db_monster
+      url: jdbc:mysql://localhost:3306/db_monster
+      username: root
+      password: 
+      driver-class-name: com.mysql.jdbc.Driver
+    -
+      name: db_schema_default
+      url: jdbc:mysql://localhost:3306/db_schema_default
+      username: root
+      password: 
+      driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+      database: MYSQL
+      show-sql: true
+      generate-ddl: true
+      hibernate:
+          ddl-auto: none
+          naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+      properties:
+          hibernate:
+              dialect: org.hibernate.dialect.MySQL5Dialect
+  banner:
+      location: classpath:banner.txt
+  jwt:
+      secret: _@HRL&L3tF?Z7ccj4z&L5!nU2B!Rjs3_
+  management:
+      security:
+          enabled: false
+      
+      
