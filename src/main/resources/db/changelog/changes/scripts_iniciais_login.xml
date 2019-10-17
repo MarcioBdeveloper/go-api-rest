@@ -80,7 +80,7 @@
 	     		2,
 	     		'admin2@email.com', 
 	     		'127.0.0.1', 
-	     		'db_monster', 
+	     		'db_apiresttenancy', 
 	     		'ayJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBlbWFpbC5jb20iLCJyb2xlIjoiUk9MRV9TVVBFUlVTVUFSSU8iLCJjcmVhdGVkIjoxNTM3NjQwMjkzNzg1fQ.7_BrkcE7Ibfn-Vv9mziTEfZtz8t2ifGb2DagG2q_WzkLQ6qYC78DSwVU4D_yx5rpfC0L0g70aYUxqQX_oQvAAA'
 	     	);
 	    </sql>
