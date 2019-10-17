@@ -29,5 +29,7 @@ spring:
   management:
       security:
           enabled: false
+server:
+  port: 9000
       
       
