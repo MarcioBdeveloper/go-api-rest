@@ -7,11 +7,12 @@
 > Swagger<br>
 > Liquibase<br>
 > MultiTenancy<br>
+> MySql<br>
 
 ## Passos iniciais 
 > 1 - Começe criando uma base de dados(MySql) com nome db_apiresttenancy (mas pode ser da sua preferencia, é só ajustar a configuração) <br>
 > 2 - Inicie a aplicação<br>
-> 3 - Atualize os tokens para os logins "admin@email.com" e "admin2@email.com", o liquibase esta inserindo um valor aleatorio <br>
+> 3 - Logins pré-definidos no liquibase "admin@email.com" e "admin2@email.com"<br>
 > 4 - Para consultar o token de um login de acordo com um dos logins sitados utilizando o endpoint e Json abaixo:
 POST - localhost:9000/auth
 
