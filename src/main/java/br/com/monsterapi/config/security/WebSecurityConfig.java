@@ -96,7 +96,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     				.driverClassName(dataSourceProperty.getDriverClassName())
     				.build();
         	
-        	if (dataSourceProperty.getName().equalsIgnoreCase("db_monster")) {
+        	if (dataSourceProperty.getName().equalsIgnoreCase("db_apiresttenancy")) {
     			tenantRoutingDataSource.setDefaultTargetDataSource(dataSource);
     			TenantLocalStorage.setTenantName(dataSourceProperty.getName());
     		}

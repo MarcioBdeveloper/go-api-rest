@@ -1,10 +1,15 @@
 # API Java
 
 ## Tecnologias utilizadas
-> Spring Boot, Security, Data, Rest, RestAssured, jUnit, Swagger, Liquibase, MultiTenancy
+> Spring Boot, Security, Data, Rest<br>
+> RestAssured <br>
+> jUnit<br>
+> Swagger<br>
+> Liquibase<br>
+> MultiTenancy<br>
 
 ## Passos iniciais 
-> 1 - Começe criando uma base de dados com nome db_apiresttenancy (mas pode ser da sua preferencia, é só ajustar a configuração) <br>
+> 1 - Começe criando uma base de dados(MySql) com nome db_apiresttenancy (mas pode ser da sua preferencia, é só ajustar a configuração) <br>
 > 2 - Inicie a aplicação<br>
 > 3 - Atualize os tokens para os logins "admin@email.com" e "admin2@email.com", o liquibase esta inserindo um valor aleatorio <br>
 > 4 - Para consultar o token de um login de acordo com um dos logins sitados utilizando o endpoint e Json abaixo:
@@ -28,6 +33,7 @@ Response<br>
 > Os passos demonstrado são base para o uso dos tokens JWT e do Multi Tenancy
 
 Para uso do token deve ser criado um atributo no header de key 'accessToken' e o value é o token que deseja usar para se autenticar na API.
+
 
 swagger: http://localhost:9000/swagger-ui.html
 

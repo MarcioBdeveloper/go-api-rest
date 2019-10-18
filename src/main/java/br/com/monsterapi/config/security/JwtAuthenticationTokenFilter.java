@@ -46,7 +46,7 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter{
 				authentication.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
 				SecurityContextHolder.getContext().setAuthentication(authentication);
 			}
-			TenantLocalStorage.setTenantName("db_monster");
+			TenantLocalStorage.setTenantName("db_apiresttenancy");
 			BaseDeDadosResponse base = this.baseDeDadosService.buscarBaseDeDados(token);
 	        TenantLocalStorage.setTenantName(base.getNomeSchema());
 		}
