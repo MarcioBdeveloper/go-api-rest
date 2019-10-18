@@ -37,3 +37,6 @@ Para uso do token deve ser criado um atributo no header de key 'accessToken' e o
 
 swagger: http://localhost:9000/swagger-ui.html
 
+> Para utilizar o token no swagger basta clicar no botão 'Authorize' presente no lado direito no inicio do endpoints,
+> coloque o token no campo Value e clique em Authorize.
+
