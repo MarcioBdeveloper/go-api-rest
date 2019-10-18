@@ -13,7 +13,7 @@
 > 1 - Começe criando uma base de dados(MySql) com nome db_apiresttenancy (mas pode ser da sua preferencia, é só ajustar a configuração) <br>
 > 2 - Inicie a aplicação<br>
 > 3 - Logins pré-definidos no liquibase "admin@email.com" e "admin2@email.com"<br>
-> 4 - Para consultar o token de um login de acordo com um dos logins sitados utilizando o endpoint e Json abaixo:
+> 4 - Para consultar o token de um login de acordo com um dos logins sitados utilizando o endpoint e Json abaixo:<br>
 POST - localhost:9000/auth
 
 Request json<br>
